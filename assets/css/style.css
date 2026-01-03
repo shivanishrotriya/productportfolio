@@ -2000,7 +2000,13 @@ article.active {
   text-decoration: underline !important;
 }
 
-.social-links,
-.social-links ion-icon {
-  color: var(--white-2);
+.social-links {
+  color: var(--white-2);  /* text color */
 }
+
+.social-links ion-icon {
+  --ionicon-stroke-width: 2px; /* optional, makes icon lines thinner/thicker */
+  color: var(--white-2);       /* icon color */
+  vertical-align: middle;      /* aligns icon with text */
+}
+
