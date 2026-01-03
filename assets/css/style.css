@@ -769,7 +769,7 @@ main {
 .clients-item img {
   width: auto;          /* let width scale naturally */
   max-width: 100%;      /* prevents overflow in flex item */
-  height: 50px;         /* fixed height for all logos */
+  height: 35px;         /* fixed height for all logos */
   object-fit: contain;  /* keeps aspect ratio */
   display: block;
   filter: none /*grayscale(1)*/;
