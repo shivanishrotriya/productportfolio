@@ -2016,7 +2016,7 @@ article.active {
 
 .social-links a {
   display: flex;           
-  padding: 5px 18px;
+  padding: 10px 5px;
   align-items: center;     
   gap: 4px;                
   color: var(--white-2);   
