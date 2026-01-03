@@ -2017,3 +2017,15 @@ article.active {
   flex-wrap: nowrap;        /* prevent wrapping */
   color: var(--white-2);
 }
+
+.social-links a {
+  display: flex;           /* keeps text and icon in one line */
+  align-items: center;     /* vertically center icon */
+  gap: 4px;                /* spacing between text and icon */
+  color: var(--white-2);   /* ensures links stay white */
+  text-decoration: none;   /* removes underline */
+}
+
+.social-links a:hover {
+  color: var(--primary);   /* optional hover color */
+}
