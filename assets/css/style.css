@@ -1999,3 +1999,8 @@ article.active {
   color: #ffcc00 !important;
   text-decoration: underline !important;
 }
+
+.social-links,
+.social-links ion-icon {
+  color: var(--white-2);
+}
