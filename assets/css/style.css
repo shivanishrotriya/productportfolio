@@ -2001,32 +2001,28 @@ article.active {
 }
 
 .social-links {
-  color: var(--white-2);  /* text color */
+  display: flex;            
+  gap: 8px;                 
+  align-items: center;      
+  flex-wrap: nowrap;        
+  color: var(--white-2);    
 }
 
 .social-links ion-icon {
-  --ionicon-stroke-width: 2px; /* optional, makes icon lines thinner/thicker */
-  color: var(--white-2);       /* icon color */
-  vertical-align: middle;      /* aligns icon with text */
-}
-
-.social-links {
-  display: flex;            /* keep text and icons in a row */
-  gap: 8px;                 /* spacing between items */
-  align-items: center;      /* vertically center icons with text */
-  flex-wrap: nowrap;        /* prevent wrapping */
-  color: var(--white-2);
+  --ionicon-stroke-width: 2px; 
+  color: var(--white-2);       
+  vertical-align: middle;      
 }
 
 .social-links a {
-  display: flex;           /* keeps text and icon in one line */
+  display: flex;           
   padding: 5px 18px;
-  align-items: center;     /* vertically center icon */
-  gap: 4px;                /* spacing between text and icon */
-  color: var(--white-2);   /* ensures links stay white */
-  text-decoration: none;   /* removes underline */
+  align-items: center;     
+  gap: 4px;                
+  color: var(--white-2);   
+  text-decoration: none;   
 }
 
 .social-links a:hover {
-  color: var(--primary);   /* optional hover color */
+  color: var(--primary);   
 }
