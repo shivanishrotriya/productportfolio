@@ -1438,7 +1438,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 30px;
     margin: 0 -30px;
     padding: 30px;
-    padding-bottom: 35px;
+    padding-bottom: 60px;
   }
 
   .content-card {
