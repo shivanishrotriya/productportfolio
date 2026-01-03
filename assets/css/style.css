@@ -2020,6 +2020,7 @@ article.active {
 
 .social-links a {
   display: flex;           /* keeps text and icon in one line */
+  padding: 5px 18px;
   align-items: center;     /* vertically center icon */
   gap: 4px;                /* spacing between text and icon */
   color: var(--white-2);   /* ensures links stay white */
