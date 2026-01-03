@@ -2010,3 +2010,10 @@ article.active {
   vertical-align: middle;      /* aligns icon with text */
 }
 
+.social-links {
+  display: flex;            /* keep text and icons in a row */
+  gap: 8px;                 /* spacing between items */
+  align-items: center;      /* vertically center icons with text */
+  flex-wrap: nowrap;        /* prevent wrapping */
+  color: var(--white-2);
+}
