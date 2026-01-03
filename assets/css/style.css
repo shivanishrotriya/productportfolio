@@ -567,6 +567,8 @@ main {
   gap: 20px;
   margin: 0;
   padding: 0;
+	row-gap: 30px;
+  column-gap: 25px;
 }
 
 @media (min-width: 580px) {
