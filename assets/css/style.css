@@ -2019,8 +2019,11 @@ article.active {
   padding: 15px 5px;
   align-items: center;     
   gap: 4px;                
-  color: var(--white-2);   
-  text-decoration: none;   
+  all: unset;
+  color: #00ffff !important;
+  text-decoration: none !important;
+  -webkit-text-fill-color: #00ffff !important;
+  cursor: pointer;
 }
 
 .social-links a:hover {
