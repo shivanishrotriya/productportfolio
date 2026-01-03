@@ -769,7 +769,7 @@ main {
 .clients-item img {
   width: auto;          /* let width scale naturally */
   max-width: 100%;      /* prevents overflow in flex item */
-  height: 35px;         /* fixed height for all logos */
+  height: 45px;         /* fixed height for all logos */
   object-fit: contain;  /* keeps aspect ratio */
   display: block;
   filter: none /*grayscale(1)*/;
@@ -779,11 +779,11 @@ main {
 .clients-item img:hover { filter: grayscale(0); }
 */
 @media (min-width: 768px) {
-  .clients-item img { height: 35px; }
+  .clients-item img { height: 45px; }
 }
 
 @media (min-width: 1250px) {
-  .clients-item img { height: 35px; }
+  .clients-item img { height: 45px; }
 }
 
 
