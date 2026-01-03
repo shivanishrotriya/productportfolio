@@ -563,26 +563,26 @@ main {
 
 .testimonials-list {
   display: grid;
-  grid-template-columns: 1fr; /* 1 column on small screens */
-  gap: 20px; /* same as service-list */
+  grid-template-columns: 1fr;
+  gap: 20px;
   margin: 0;
   padding: 0;
-  overflow: visible; /* remove horizontal scroll */
 }
 
 @media (min-width: 580px) {
   .testimonials-list {
-    grid-template-columns: 1fr 1fr; /* 2 per row on medium screens */
-    gap: 25px; /* match service-list gap on medium */
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
 }
 
 @media (min-width: 1024px) {
   .testimonials-list {
-    grid-template-columns: 1fr 1fr; /* keep 2 per row on large screens, same as service-list */
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
 }
+
 
 .testimonials-avatar-box {
   position: absolute;
@@ -1433,13 +1433,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* testimonials */
 
   .testimonials-title { margin-bottom: 25px; }
-
-  .testimonials-list {
-    gap: 30px;
-    margin: 0 -30px;
-    padding: 30px;
-    padding-bottom: 60px;
-  }
 
   .content-card {
     padding: 30px;
