@@ -745,23 +745,25 @@ main {
 .clients { margin-bottom: 15px; }
 
 .clients-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 0;
   padding: 25px;
-  padding-bottom: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .clients-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .clients-item {
-  min-width: 50%;
-  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
 }
 
 .clients-item img {
@@ -1264,9 +1266,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
-
-
 
   /**
    * #PORTFOLIO, BLOG 
@@ -1499,7 +1498,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
 
 
 
@@ -1755,7 +1753,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* clients */
 
-  .clients-item { min-width: calc(25% - 38px); }
 
 
 
