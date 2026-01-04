@@ -111,13 +111,19 @@ navigationLinks.forEach(link => {
       return;
     }
 
-    pages.forEach((page, idx) => {
+    pages.forEach(page => {
       if (page.dataset.page === pageName) {
         page.classList.add("active");
-        navigationLinks[idx].classList.add("active");
       } else {
         page.classList.remove("active");
-        navigationLinks[idx].classList.remove("active");
+      }
+    });
+
+    navigationLinks.forEach(navLink => {
+      if (navLink.textContent.trim().toLowerCase() === pageName) {
+        navLink.classList.add("active");
+      } else {
+        navLink.classList.remove("active");
       }
     });
 
