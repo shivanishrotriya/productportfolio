@@ -2027,3 +2027,8 @@ article.active {
 .social-links a:hover {
   color: var(--primary);   
 }
+
+.testimonials-modal .modal-title,
+.testimonials-modal .modal-title a {
+  text-transform: none;
+}
