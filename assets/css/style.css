@@ -2032,3 +2032,7 @@ article.active {
 .testimonials-modal .modal-title a {
   text-transform: none;
 }
+
+.project-title {
+  text-transform: none;
+}
