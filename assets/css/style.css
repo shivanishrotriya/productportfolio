@@ -231,6 +231,10 @@ article.active {
   font-weight: var(--fw-500);
 }
 
+.testimonials-item-title {
+  text-transform: none;
+}
+
 .article-title {
   position: relative;
   padding-bottom: 7px;
