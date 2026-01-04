@@ -52,6 +52,11 @@ testimonialsItem.forEach(item => {
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && modalContainer.classList.contains("active")) {
+    testimonialsModalFunc();
+  }
+});
 // ================== FILTER ==================
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
