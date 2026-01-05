@@ -2036,3 +2036,13 @@ article.active {
 .project-title {
   text-transform: none;
 }
+
+.about-bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.about-bullets li {
+  margin-bottom: 8px;
+}
