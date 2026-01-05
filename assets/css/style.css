@@ -2038,11 +2038,15 @@ article.active {
 }
 
 .about-bullets {
-  list-style-type: disc;
-  margin-left: 20px;
-  padding-left: 20px;
+  list-style: disc !important;
+  list-style-position: outside;
+  margin-left: 24px;
+  padding-left: 24px;
 }
 
 .about-bullets li {
+  display: list-item !important;
+  list-style: disc !important;
   margin-bottom: 8px;
 }
+
